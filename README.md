@@ -1,6 +1,49 @@
-# community-science-museum-project
+# Community Science Museum Website
 
-# 📅 Community Science Museum – Project Plan
+## Project Description
+This project is a front-end website for the Community Science Museum, an interactive space designed to engage children (ages 7–15) and families with science in a fun and educational way.  
+
+The goal is to design and build a responsive, user-friendly website that provides essential visitor information, highlights museum exhibits, and inspires families to visit in person. The design will use clear hierarchy, accessibility principles, and a visual style that appeals to both kids and parents.  
+
+The project is developed as an individual assignment using semantic HTML and external CSS, following best practices in performance, SEO, and accessibility.  
+
+---
+
+## Goals
+- Create an engaging and child-friendly design that appeals to the target audience.  
+- Build at least four pages: Home, Exhibits, Visit, About (plus optional Contact).  
+- Apply compositional principles (typography, color, layout) for clarity and visual impact.  
+- Use semantic, well-formatted HTML for structure.  
+- Follow DRY principles in CSS for clean and reusable code.  
+- Ensure the site is responsive across desktop, tablet, and mobile devices.  
+- Optimize performance: images under 200kb and fast load times.  
+- Implement WCAG accessibility standards (contrast, hierarchy, navigation).  
+- Add basic SEO: meta tags, descriptive titles, alt text for images.  
+- Document the development process in a short report: what went well and what could be improved.  
+
+---
+
+## Timeline
+The project runs from 25th August 2025 – 21st September 2025, with planning, design, development, and testing phases tracked in a GitHub Project board (Kanban + Gantt view).  
+
+---
+
+## Tools & Resources
+- GitHub Projects – planning & tracking  
+- Figma – wireframes & design mockups  
+- HTML5 & CSS3 – development  
+- WCAG Guidelines – accessibility checks  
+- GitHub Pages – deployment  
+
+---
+
+## Deliverables
+- Fully functional website (min. 4 pages, responsive, accessible, SEO-friendly)  
+- GitHub Project board showing planning and progress  
+- Final report with reflections on the development process  
+
+
+# Community Science Museum – Project Plan
 
 | #  | Task                                      | Dates          | Priority | Difficulty | Size | Labels                                  |
 |----|-------------------------------------------|---------------|----------|------------|------|-----------------------------------------|
