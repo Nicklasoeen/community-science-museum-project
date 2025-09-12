@@ -10,7 +10,6 @@ It ensures consistency across all pages and helps keep the site accessible, enga
 | Purpose     | Color | Hex Code |
 | ----------- | ----- | -------- |
 | Primary     | Blue  | #0FBDBD  |
-| Accent      | Gray  | #FBFBFB  |
 | Background  | White | #FFFFFF  |
 | Text (alt)  | Gray  | #434343  |
 | Text (dark) | Black | #000000  |
