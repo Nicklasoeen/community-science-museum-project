@@ -44,25 +44,12 @@ It ensures consistency across all pages and helps keep the site accessible, enga
 
 **Primary Button:**
 
-- Background: Blue (#0077B6)
+- Background: Light Blue (#0FBDBD)
 - Text: White (#FFFFFF)
-- Border-radius: 8px
+- Border-radius: 10px
 - Padding: 12px 24px
 
-**Hover State:** Darker blue (#005F8A)  
-**Active State:** Even darker blue (#004466)
-
-**Secondary Button:**
-
-- Background: Orange (#F4A261)
-- Text: White (#FFFFFF)
-
----
-
-## 4. Links
-
-- Default: Blue (#0077B6), underline on hover.
-- Visited: Darker blue (#005F8A).
+**Hover State:** Darker blue (#21cfcf)
 
 ---
 
@@ -88,14 +75,13 @@ It ensures consistency across all pages and helps keep the site accessible, enga
 ### Navigation Bar
 
 - Background: White (#FFFFFF)
-- Links: Blue (#0077B6), hover underline
-- Mobile: Collapsible menu
+- Links: Blue (#21cfcf)
 
 ### Footer
 
-- Background: Blue (#0077B6)
+- Background: Blue (#21cfcf)
 - Text: White (#FFFFFF)
-- Contains contact info + social links
+- Contains contact info
 
 ---
 
