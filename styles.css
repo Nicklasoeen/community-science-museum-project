@@ -386,6 +386,10 @@ h2 .highlight {
     margin-top: 2rem;
   }
 
+  footer {
+    margin-top: 0;
+  }
+
   .contact-card {
     h3 {
       font-size: 1.2rem;
@@ -432,6 +436,10 @@ h2 .highlight {
     min-height: 120px;
     resize: vertical;
   }
+}
+
+.map {
+  margin-top: 6rem;
 }
 
 .footer {
