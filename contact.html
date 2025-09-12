@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="reset.css" />
+  </head>
+  <header>
+    <nav class="navbar">
+      <a href="/index.html">
+        <img src="/images/logo.png" alt="Logo" style="width: 250px" />
+      </a>
+      <ul class="nav-links">
+        <li><a href="/index.html">Hjem</a></li>
+        <li><a href="/exhibits.html">Utstillinger</a></li>
+        <a href="/contact.html"
+          ><button class="btn-primary">Kontakt oss</button></a
+        >
+      </ul>
+    </nav>
+  </header>
+  <body class="page-contact">
+    <section class="contact-container">
+      <h1>Kontakt <span class="highlight">oss</span></h1>
+      <p>
+        Har du spørsmål om utstillingene våre, planlegging av et besøk eller
+        organisering av et spesielt arrangement?<br />
+        Vi er her for å gjøre ditt neste vitenskapelige eventyr hos oss
+        uforglemmelig.
+      </p>
+    </section>
+    <section class="contact">
+      <div class="contact-card">
+        <h2>Send oss en melding</h2>
+        <p>
+          Kontaktskjemaet brukes til reservasjon av billetter,<br />
+          eller send oss en melding.
+        </p>
+        <form>
+          <div class="contact-name">
+            <input type="text" name="fornavn" placeholder="Fornavn" required />
+            <input
+              type="text"
+              name="etternavn"
+              placeholder="Etternavn"
+              required
+            />
+          </div>
+
+          <input type="email" name="epost" placeholder="E-post" required />
+
+          <input type="tel" name="mobil" placeholder="Mobilnummer" required />
+
+          <select name="kategori" required>
+            <option value="">Hva lurer du på?</option>
+            <option value="billett">Billettreservasjon</option>
+            <option value="sporsmal">Spørsmål</option>
+            <option value="annet">Andre henvendelser</option>
+          </select>
+
+          <textarea name="melding" placeholder="Din melding..."></textarea>
+
+          <button class="btn-primary" type="submit">Send</button>
+        </form>
+      </div>
+      <div class="contact-card">
+        <h2>Kontaktinformasjon</h2>
+        <div class="contact-box">
+          <h3>Kom i kontakt med oss</h3>
+          <p>Hovedkontor: <a href="tel:+47 55 58 20 00">+47 55 58 20 00</a></p>
+          <p>E-post sendes til: <a href="mailto:post@bf.no">post@bf.no</a></p>
+
+          <p>
+            <strong>Ring oss under våre åpningstider</strong>
+          </p>
+        </div>
+        <div class="contact-box">
+          <h3>Besøk oss</h3>
+          <p>
+            Bergens forskingsdistrikt<br />
+            Nygårdsgaten 12, 5014 Bergen <br />
+            <strong>Gratis parkering utenfor</strong>
+          </p>
+        </div>
+        <div class="contact-box">
+          <h3>Åpningstider</h3>
+          <p>
+            Man - Fre: 09.00 - 19.00.<br />Lør - Søn: 10.00 - 16.00.<br />
+            <strong>Stengt alle helligdager</strong>
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-logo">
+          <img
+            src="images/Community Science Museum (3).png"
+            width="200px"
+            alt="Bergens forskningsmuseum logo"
+          />
+        </div>
+
+        <div class="footer-hours">
+          <h3>Åpningstider</h3>
+          <p>Man – Fre: 09.00 – 19.00.</p>
+          <p>Lør – Søn: 10.00 – 16.00.</p>
+          <p><strong>Stengt alle helligdager</strong></p>
+        </div>
+
+        <div class="footer-address">
+          <h3>Adresse</h3>
+          <p>Bergens forskningsdistrikt</p>
+          <p>Nygårdsgaten 12, 5014 Bergen</p>
+          <p><strong>Gratis parkering utenfor</strong></p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

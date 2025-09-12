@@ -7,13 +7,13 @@ It ensures consistency across all pages and helps keep the site accessible, enga
 
 ## 1. Colors
 
-| Purpose     | Color  | Hex Code |
-| ----------- | ------ | -------- |
-| Primary     | Blue   | #0077B6  |
-| Secondary   | Orange | #F4A261  |
-| Accent      | Yellow | #E9C46A  |
-| Background  | White  | #FFFFFF  |
-| Text (dark) | Gray   | #333333  |
+| Purpose     | Color | Hex Code |
+| ----------- | ----- | -------- |
+| Primary     | Blue  | #0FBDBD  |
+| Accent      | Gray  | #FBFBFB  |
+| Background  | White | #FFFFFF  |
+| Text (alt)  | Gray  | #434343  |
+| Text (dark) | Black | #000000  |
 
 **Notes:**
 
@@ -31,10 +31,10 @@ It ensures consistency across all pages and helps keep the site accessible, enga
 
 **Font Sizes (desktop baseline):**
 
-- H1: 40px
-- H2: 28px
-- H3: 22px
-- Body: 16px
+- H1: 3rem
+- H2: 2.5rem
+- H3: 1.75rem
+- Body: 1.2rem
 
 **Line Height:** 1.5 for paragraphs.
 
