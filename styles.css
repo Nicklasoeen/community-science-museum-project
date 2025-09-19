@@ -56,22 +56,6 @@ h2 .highlight {
 .btn-primary:hover {
   background-color: #21cfcf;
 }
-.navbar {
-  display: flex;
-  flex-wrap: nowrap;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px 40px;
-
-  .nav-links {
-    display: flex;
-    flex-direction: row;
-    gap: 40px;
-    text-decoration: none;
-    list-style: none;
-    align-items: center;
-  }
-}
 
 .hero-container {
   position: relative;
@@ -159,15 +143,16 @@ h2 .highlight {
 }
 
 .exhibits-container,
+.visit-container,
 .contact-container {
   text-align: center;
   max-width: 1200px;
   margin: 0 auto;
   margin-top: 6rem;
+  padding: 0 1rem;
 
   h2 {
-    margin-bottom: 0.5rem;
-    margin-top: 10%;
+    margin-bottom: 0.75rem;
   }
   p {
     color: #434343;
@@ -182,8 +167,16 @@ h2 .highlight {
 .exhibition-cards,
 .visit-cards {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   gap: 1rem;
+
+  @media (min-width: 568px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 .exhibition-card,
 .visit-card {
@@ -194,7 +187,6 @@ h2 .highlight {
     0 4px 6px -2px rgba(0, 0, 0, 0.05);
   transition: all 0.3s ease;
   cursor: pointer;
-  max-width: 400px;
   border: none;
   padding: 0 1.5rem 1.5rem 1.5rem;
   text-align: left;
@@ -253,22 +245,21 @@ h2 .highlight {
   border-radius: 10px;
   box-shadow: 0 0px 15px 0px rgba(0, 0, 0, 0.1),
     0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  padding: 4rem;
-  margin-top: 2rem;
+  padding: 1rem;
+  margin-top: 1rem;
 
   .explore-text {
     margin: 1rem 0 1rem 0;
   }
+
+  @media (min-width: 768px) {
+    padding: 2.5rem;
+  }
 }
 
 .visit-container {
-  text-align: center;
-  max-width: 1200px;
-  margin: 0 auto;
-
   h2 {
-    margin-bottom: 0.5rem;
-    margin-top: 10%;
+    margin-bottom: 0.75rem;
   }
 
   p {
@@ -282,11 +273,14 @@ h2 .highlight {
 
 .page-exhibitions .exhibition-cards {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   gap: 1rem;
 
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   .exhibition-card {
-    max-width: 600px;
     padding: 1.5rem 1.5rem 1.5rem 1.5rem;
   }
 
@@ -333,6 +327,7 @@ h2 .highlight {
   max-width: 1200px;
   margin: 0 auto;
   margin-top: 6rem;
+  padding: 0 1rem;
 }
 
 .back-button {
@@ -349,16 +344,22 @@ h2 .highlight {
 }
 
 .technology-hero-content {
-  display: grid;
-  grid-template-columns: 0.2fr 1fr 1fr;
+  display: flex;
   margin: 0 auto;
   gap: 40px;
   padding: 50x 20px;
   padding-bottom: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  @media (min-width: 768px) {
+    flex-wrap: nowrap;
+  }
 
   .technology-icon {
     background-color: hsl(var(--background));
     box-shadow: 0px 0px 14px 6px rgba(0, 0, 0, 0.05);
+    justify-self: start;
   }
 
   .hero-text {
@@ -377,13 +378,22 @@ h2 .highlight {
 }
 
 .page-contact {
-  .contact {
+  .contact-container {
+    padding: 0 1rem;
+  }
+
+  .contact-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     gap: 1rem;
     max-width: 1200px;
     margin: 0 auto;
     margin-top: 2rem;
+    padding: 0 1rem;
+
+    @media (min-width: 968px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
   }
 
   footer {
@@ -404,8 +414,12 @@ h2 .highlight {
     .contact-box {
       border-radius: 10px;
       border: 1px solid #d5d5d5;
-      padding: 2rem;
+      padding: 1rem;
       margin-top: 1rem;
+
+      @media (min-width: 768px) {
+        padding: 2rem;
+      }
     }
   }
 
@@ -416,8 +430,13 @@ h2 .highlight {
     margin-top: 2rem;
   }
   .contact-name {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
     gap: 1rem;
+
+    @media (min-width: 768px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
   }
   .contact-name input {
     flex: 1;
@@ -478,4 +497,51 @@ h2 .highlight {
 
 .footer p {
   margin: 4px 0;
+}
+
+@media (max-width: 768px) {
+  .hero-container {
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem 2rem;
+    margin-top: 4rem;
+
+    .hero-content {
+      max-width: 100%;
+      margin: 4% 0 0 0;
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      .hero-button {
+        margin: 0 auto;
+        display: block;
+        margin-bottom: 1rem;
+      }
+    }
+
+    .floating-shape {
+      display: none;
+    }
+
+    .hero-image {
+      width: 100%;
+      max-width: 400px;
+      height: auto;
+      margin: 0 auto;
+    }
+  }
+}
+
+.exhibition-cards.technology {
+  grid-template-columns: repeat(1, 1fr);
+
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (min-width: 968px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }

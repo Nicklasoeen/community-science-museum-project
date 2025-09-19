@@ -15,17 +15,15 @@
     <link rel="icon" href="images/bf-museum-fav-blue.png" />
   </head>
   <header id="site-header">
+    <a href="index.html">
+      <img src="images/bf-museum-logo.svg" alt="Logo" style="width: 200px" />
+    </a>
     <nav class="navbar">
-      <a href="index.html">
-        <img src="images/bf-museum-logo.svg" alt="Logo" style="width: 200px" />
+      <a href="index.html">Hjem</a>
+      <a href="exhibits.html">Utstillinger</a>
+      <a href="contact.html">
+        <button class="btn-primary">Kontakt oss</button>
       </a>
-      <ul class="nav-links">
-        <li><a href="index.html">Hjem</a></li>
-        <li><a href="exhibits.html">Utstillinger</a></li>
-        <a href="contact.html"
-          ><button class="btn-primary">Kontakt oss</button></a
-        >
-      </ul>
     </nav>
   </header>
   <body class="technology-page">
@@ -34,12 +32,16 @@
         &#8592; Gå tilbake
       </button>
       <div class="technology-hero-content">
-        <img
-          src="icons/icons8-cpu-100 (2).png"
-          alt="Robot"
-          class="technology-icons"
-          width="100"
-        />
+        <div style="flex-shrink: 0">
+          <img
+            src="icons/icons8-cpu-100 (2).png"
+            alt="Robot"
+            class="technology-icons"
+            width="50"
+            height="50"
+          />
+        </div>
+
         <div class="hero-content">
           <h1>
             Teknologi
@@ -72,7 +74,7 @@
         utstillinger <br />
         det å lære naturfag til et eventyr for nysgjerrige sinn i alle aldre.
       </p>
-      <div class="exhibition-cards">
+      <div class="exhibition-cards technology">
         <div class="exhibition-card">
           <div class="card-header">
             <div class="header-content">
@@ -200,7 +202,7 @@
           </div>
         </div>
       </div>
-      <div class="contact-card">
+      <div class="contact-card" style="margin-top: 3rem">
         <h3 class="explore-title">Ønsker du å ta turen?</h3>
         <p class="explore-text">
           I og med at vi har pusset opp store deler av vårt museum, kan du sende
