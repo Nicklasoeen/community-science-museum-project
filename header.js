@@ -17,4 +17,21 @@ document.addEventListener("DOMContentLoaded", () => {
       header.classList.remove("scrolled")
     }
   });
-})
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  const toggle = document.getElementById("mobile-menu-toggle");
+  const menu = document.getElementById("mobile-menu");
+
+  toggle.addEventListener("click", function () {
+    menu.classList.toggle("open");
+  });
+
+  // Optional: Close menu when clicking a link
+  menu.querySelectorAll("a").forEach(link => {
+    link.addEventListener("click", () => {
+      menu.classList.remove("open");
+    });
+  });
+});
+

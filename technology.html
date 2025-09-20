@@ -18,12 +18,24 @@
     <a href="index.html">
       <img src="images/bf-museum-logo.svg" alt="Logo" style="width: 200px" />
     </a>
-    <nav class="navbar">
+    <!-- Hamburger button -->
+    <button id="mobile-menu-toggle" aria-label="Åpne meny">
+      <span class="hamburger"></span>
+      <span class="hamburger"></span>
+      <span class="hamburger"></span>
+    </button>
+    <nav class="nav">
       <a href="index.html">Hjem</a>
       <a href="exhibits.html">Utstillinger</a>
       <a href="contact.html">
         <button class="btn-primary">Kontakt oss</button>
       </a>
+    </nav>
+    <!-- Mobile menu -->
+    <nav id="mobile-menu" class="mobile-menu">
+      <a href="index.html">Hjem</a>
+      <a href="exhibits.html">Utstillinger</a>
+      <a href="contact.html" class="mobile-contact">Kontakt oss</a>
     </nav>
   </header>
   <body class="technology-page">
