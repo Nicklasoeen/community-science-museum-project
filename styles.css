@@ -547,3 +547,31 @@ h2 .highlight {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+.exhibition-cards.technology .card-content .btn-primary {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.page-unavailable {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-unavailable main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0;
+}
+
+.page-unavailable .contact-card {
+  margin-top: 0;
+  max-width: 700px;
+}
+
+.page-unavailable .footer {
+  margin-top: 0;
+}
